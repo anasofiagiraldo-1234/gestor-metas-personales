@@ -23,6 +23,11 @@ def ver_metas():
         print(f"{i}. {meta['descripcion']} - {estado}")
 
 
+def contar_cumplidas():
+    total = sum(1 for m in metas if m["cumplida"])
+    print(f"Metas cumplidas: {total} de {len(metas)}")
+
+
 def mostrar_menu():
     print("\n=== Gestor de Metas Personales ===")
     print("Organiza tus objetivos y sigue tu progreso")
