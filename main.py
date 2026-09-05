@@ -25,6 +25,7 @@ def ver_metas():
 
 def mostrar_menu():
     print("\n=== Gestor de Metas Personales ===")
+    print("Organiza tus objetivos y sigue tu progreso")
     print("1. Agregar meta")
     print("2. Ver metas")
     print("3. Salir")
