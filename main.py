@@ -7,6 +7,9 @@ metas = []
 
 
 def agregar_meta(descripcion):
+    if descripcion.strip() == "":
+        print("La meta no puede estar vacia")
+        return
     nueva_meta = {"descripcion": descripcion, "cumplida": False}
     metas.append(nueva_meta)
 
